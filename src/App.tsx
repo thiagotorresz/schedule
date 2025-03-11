@@ -12,7 +12,7 @@ function App() {
       <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-3xl font-bold text-blue-600">Village Resort - Programação Adultos</h1>
-          <a href="#">
+          <a href="https://thiagotorresz.github.io/kids-schedule/">
             <h4 className="text-lg font-bold text-gray-400 hover:underline">Village Resort - Programação Infantil</h4>
           </a>
           <button
