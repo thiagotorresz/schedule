@@ -138,9 +138,9 @@ export const PDFSchedule: React.FC = () => {
 
           return (
             <Page key={day} size="A4" orientation="landscape" style={styles.page}>
-              <Image src="/public/img/logo.jpg" style={styles.logo} />
-              <Image src="/public/img/sun.jpg" style={styles.sun} />
-              <Image src="/public/img/wave.jpg" style={styles.wave} />
+              <Image src="https://thiagotorresz.github.io/schedule/img/logo.jpg" style={styles.logo} />
+              <Image src="https://thiagotorresz.github.io/schedule/img/sun.jpg" style={styles.sun} />
+              <Image src="https://thiagotorresz.github.io/schedule/img/wave.jpg" style={styles.wave} />
 
               <Text style={styles.dayTitle}>{day.toUpperCase()}</Text>
               <Text style={styles.subtitle}>PROGRAMAÇÃO</Text>
@@ -172,7 +172,7 @@ export const PDFSchedule: React.FC = () => {
               </View>
 
               <View style={[styles.footer, { flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }]}>
-                <Image src="/public/img/exclamation.png" style={{ width: 20, height: 20, marginRight: 5 }} />
+                <Image src="https://thiagotorresz.github.io/schedule/img/exclamation.png" style={{ width: 20, height: 20, marginRight: 5 }} />
                 <Text>AS PROGRAMAÇÕES PODEM SOFRER ALTERAÇÕES.</Text>
               </View>
             </Page>
